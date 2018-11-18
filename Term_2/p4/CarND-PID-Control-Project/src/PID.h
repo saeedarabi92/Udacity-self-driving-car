@@ -9,10 +9,19 @@ public:
   double p_error;
   double i_error;
   double d_error;
+  double prev_cte;
+
+  /**
+   * Erroe
+  **/
+  long counter;
+  double errorSum;
+  double minError;
+  double maxError;
 
   /*
   * Coefficients
-  */ 
+  */
   double Kp;
   double Ki;
   double Kd;
