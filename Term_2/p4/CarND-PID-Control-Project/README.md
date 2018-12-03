@@ -54,7 +54,9 @@ Please (do your best to) stick to [Google's C++ style guide](https://google.gith
 
 ### Implementation
 The PID implementation is in the ./src/PID.cpp. 
+
 PID::UpdateError method calculates proportional, integral and derivative errors.
+
 PID::TotalError calculates the total error using the appropriate coefficients.
 
 ### Reflection
@@ -67,4 +69,5 @@ PID::TotalError calculates the total error using the appropriate coefficients.
 3. The differential portion (D) helps to smooth the approach to the center line.
 
 * Describe how the final hyperparameters were chosen.
+
 The parameters were chosen manually using try and error. Then add the differential to try to overcome the overshooting. The integral part only moved the car out of the road; so, it chosen as zero. The final parameters where [.17, 0., 3.].
