@@ -70,4 +70,4 @@ To handle actuator latency handled in main.cpp from line [123](./src/main.cpp#L1
 
 ### The vehicle must successfully drive a lap around the track.
 
-The vehicle successfully drives around the track. A short video can be find [here](./videos/video.mov).
+The vehicle successfully drives around the track. A short video can be find [here](./videos/trim.mov).
